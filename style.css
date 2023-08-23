@@ -23,12 +23,19 @@
 
 .image {
   height: 300px;
-  width: auto;
+  width: 400px;
   border-radius: 50px;
+  transition: all ease 1s;
+  overflow: hidden;
+  box-shadow: 10px 10px 20px #57544e;
+}
+
+.image:hover {
+  scale: 1.2;
 }
 
 .img h1 {
-  font-size: 40px;
+  font-size: 250%;
   color: #15133c;
   text-transform: uppercase;
   text-align: end;
